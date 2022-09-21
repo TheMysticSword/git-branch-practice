@@ -28,7 +28,7 @@ namespace MysticsItems.Achievements
 				{
 					base.OnInstall();
                     GlobalEventManager.onCharacterDeathGlobal += GlobalEventManager_onCharacterDeathGlobal;
-					requiredBodyIndex = BodyCatalog.FindBodyIndex("BrotherHurtBody");
+					requiredBodyIndex = 42;
 					Debug.Log(requiredBodyIndex);
 				}
 
